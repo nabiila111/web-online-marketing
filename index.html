@@ -1,0 +1,240 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>marketing </title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+      }
+    
+      body {
+          background-color: #f0eaea;
+      }
+    
+      header {
+          background-color:blue
+          color: #fff;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          right: 0;
+      }
+    
+      .logo {
+          font-size: 24px;
+          font-weight: 600;
+          text-decoration: none;
+          color: #fff;
+      }
+    
+      .logo span {
+          color: #ff6b6b;
+      }
+    
+      nav ul {
+          list-style-type: none;
+          display: flex;
+      }
+    
+      nav li {
+          margin-right: 20px;
+      }
+    
+      nav a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 16px;
+          transition: color 0.3s ease;
+      }
+    
+      nav a:hover {
+          color: #ff6b6b;
+      }
+    
+      .sign-up {
+          background-color: #ff6b6b;
+          color: #fff;
+          padding: 10px 20px;
+          border-radius: 5px;
+          text-decoration: none;
+          font-size: 16px;
+          transition: background-color 0.3s ease;
+      }
+    
+      .sign-up:hover {
+          background-color: #63e652;
+      }
+    
+      .hero {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 50px;
+          background-color: #6126c0;
+      }
+    
+      .hero-content {
+          flex: 1;
+          padding-right: 50px;
+      }
+    
+      .hero-content h1 {
+          font-size: 48px;
+          font-weight: 700;
+          margin-bottom: 30px;
+        line-height: 2.5;
+      }
+    
+      .hero-content p {
+          font-size: 18px;
+          margin-bottom: 30px;
+      }
+    
+      .hero-image {
+          flex: 1;
+      }
+    
+      .hero-image img {
+          max-width: 100%;
+          height: auto;
+      }
+    
+      .btn {
+          display: inline-block;
+          background-color: #f4f0f0;
+          color: #0d0c0c;
+          padding: 12px 30px;
+          border-radius: 5px;
+          text-decoration: none;
+          font-size: 16px;
+          transition: background-color 0.3s ease;
+      }
+    
+      .btn:hover {
+          background-color: #e65252;
+      }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 40px;
+    }
+    
+    h1, h2, h3 {
+      color: #333;
+    }
+    
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    form button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">shop<span>ifty</span></a>
+        <nav>
+            <ul>
+              <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="services.html">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="aboutas.html">about</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="contactas.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav>
+        <a href="#" class="sign-up">Sign Up</a>
+    </header>
+    <div class="hero" id="Home">
+        <div class="hero-content">
+            <h1>Online Shop</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur, aperiam dolorum sequi ipsam
+                possimus? Odit animi dolore cumque, voluptas id inventore saepe quaerat.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="shop 1.jpeg" alt="Online Shop">
+        </div>
+    </div>
+    <p>welcom</p>
+    <main>
+
+        <section>
+          <h3>About Us</h3>
+          <p>We are a team of experienced digital marketing professionals dedicated to helping businesses succeed online.</p>
+        </section>
+        <section>
+          <h3>Contact Us</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 Mogadishu Marketing Agency. All rights reserved.</p>
+      </footer>
+</body>
+</html>
